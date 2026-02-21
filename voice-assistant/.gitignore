@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+env/
+
+# Environment variables (never commit API keys!)
+.env
+
+# Google Cloud credentials (never commit!)
+gcp-credentials.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+
+# Audio test files
+*.wav
+*.mp3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
